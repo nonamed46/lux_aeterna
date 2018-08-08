@@ -70,8 +70,8 @@ LuxAeternaGame/Build/*/**
 LuxAeternaGame/Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
-Plugins/*/Intermediate/*
+LuxAeternaGame/Intermediate/*
+LuxAeternaGame/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
+LuxAeternaGame/DerivedDataCache/*
