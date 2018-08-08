@@ -75,3 +75,8 @@ LuxAeternaGame/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 LuxAeternaGame/DerivedDataCache/*
+
+
+# eigene ignores: sh.exe.stackdump erscheint mir komisch.
+*.stackdump
+*.exe.stackdump
