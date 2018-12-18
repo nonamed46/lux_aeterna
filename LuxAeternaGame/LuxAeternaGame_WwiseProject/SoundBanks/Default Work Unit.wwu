@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E0C88FA-B300-4A0C-A413-93678BCCE75B}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{6E0C88FA-B300-4A0C-A413-93678BCCE75B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_Soundbank" ID="{B1BAEC26-033F-402B-8E96-CD9E46CA917A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PerformAttack" ID="{55FDBACD-2383-43D5-B9DE-2A3B3C3A78E2}" WorkUnitID="{727C3D91-DE50-4419-BAEB-B60A130A4DC4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps_Player" ID="{240D4906-0DDD-4C78-BF7B-65210B91B39B}" WorkUnitID="{727C3D91-DE50-4419-BAEB-B60A130A4DC4}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

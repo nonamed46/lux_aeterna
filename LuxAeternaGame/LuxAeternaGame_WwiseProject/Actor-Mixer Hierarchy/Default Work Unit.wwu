@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7ED2B4D-0F87-4640-9E02-2CA3FA852025}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E7ED2B4D-0F87-4640-9E02-2CA3FA852025}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Woosh_Attack" ID="{B245F788-3B1E-48F6-8465-32BEAE47D988}" ShortID="912534786">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9E9B7613-69DA-479F-904C-F9519DD5145B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="150"/>
+											<Property Name="Min" Type="Real64" Value="-150"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lux Aeterna_FX_Woosh1" ID="{0D49E6FF-E83E-42EC-B882-DB481BBAAF90}" ShortID="947621077">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{79EAD32C-0B40-40A4-84B4-6AFD07A2C8AC}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lux Aeterna_FX_Woosh1" ID="{FBCA4C2F-3438-4BF4-B91A-F2F80A6A26CF}" ShortID="194464918">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Attack\Lux Aeterna_FX_Woosh1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lux Aeterna_FX_Woosh1" ID="{FBCA4C2F-3438-4BF4-B91A-F2F80A6A26CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lux Aeterna_FX_Woosh2" ID="{EB0AC476-2370-4749-9C8C-3FF986F0FFA9}" ShortID="781261164">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8ABD7A78-1CD6-4CC8-A10A-4E1259FB9053}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lux Aeterna_FX_Woosh2" ID="{FAD9DE17-9C11-418D-80DD-469FBB8D6107}" ShortID="255241054">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Attack\Lux Aeterna_FX_Woosh2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lux Aeterna_FX_Woosh2" ID="{FAD9DE17-9C11-418D-80DD-469FBB8D6107}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lux Aeterna_FX_Woosh3" ID="{B3635F78-940C-413A-9785-FE54474B7A4E}" ShortID="1460063">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ADB8713D-3DE1-402A-9178-6E20628532A8}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lux Aeterna_FX_Woosh3" ID="{B13B86B6-57B3-46C4-AC6F-6DC65625A8FD}" ShortID="1018293899">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Attack\Lux Aeterna_FX_Woosh3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lux Aeterna_FX_Woosh3" ID="{B13B86B6-57B3-46C4-AC6F-6DC65625A8FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lux Aeterna_FX_Woosh4" ID="{A0503C2B-59AC-4783-B8CE-C5E542536453}" ShortID="386868511">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E0039CB3-46D1-466E-B31A-25BAB7E977AF}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lux Aeterna_FX_Woosh4" ID="{1DBA7F3B-2557-4051-A61E-BFE991F3BE2F}" ShortID="235951207">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Attack\Lux Aeterna_FX_Woosh4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lux Aeterna_FX_Woosh4" ID="{1DBA7F3B-2557-4051-A61E-BFE991F3BE2F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{97F97998-A171-413E-AECC-E21200C2A01D}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="100"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="Footsteps" ID="{F312F072-BF71-478F-BFD6-F1FB1DDC0E90}" ShortID="977776930">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Soil" ID="{139C383B-4DF5-4C9F-B135-1840DB8DFD75}" WorkUnitID="{961DDE0F-4881-4371-B877-95226C9A668B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Material" ID="{D81C1719-92EF-4082-9498-B32722FE0AC2}" WorkUnitID="{961DDE0F-4881-4371-B877-95226C9A668B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Stone" ID="{AAEA225C-8F64-4BE7-AC8F-9EA1FA12EB3A}" ShortID="518355001">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lux Aeterna_FX_Footsteps3_Other_Surface" ID="{74F2F401-828E-452B-A656-11D68E03D8CD}" ShortID="316145418">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{17B987A9-569E-40C3-B6D3-04181D28B5ED}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{65184419-915B-4D45-BB17-C1544992EDE0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lux Aeterna_FX_Footsteps3_Other_Surface" ID="{C9324560-C473-469A-86F2-D25DF4A016FC}" ShortID="60927339">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.785979166666667"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Stone\Lux Aeterna_FX_Footsteps3_Other_Surface.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lux Aeterna_FX_Footsteps3_Other_Surface" ID="{C9324560-C473-469A-86F2-D25DF4A016FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Soil" ID="{B990EA8C-F6E9-47CA-97E5-7767D70DE275}" ShortID="68195134">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lux Aeterna_FX_Footsteps1_Normal" ID="{FEFC769C-0F3B-4C62-B65A-1F9969E197FA}" ShortID="940100921">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lux Aeterna_FX_Footsteps1_Normal" ID="{424A4C54-1D79-488C-95B4-A7E10F902257}" ShortID="14843092">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Soil\Lux Aeterna_FX_Footsteps1_Normal.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lux Aeterna_FX_Footsteps1_Normal" ID="{424A4C54-1D79-488C-95B4-A7E10F902257}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lux Aeterna_FX_Footsteps2_Normal" ID="{E30A3631-43E1-4B7E-86C7-70887410133C}" ShortID="481268221">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F75917CE-F677-484F-A427-397D29E732CC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2543B2E6-125C-4612-B04C-BF4A82B74D3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lux Aeterna_FX_Footsteps2_Normal" ID="{416CD818-DF62-4B3C-89EA-8C7B407CF0A9}" ShortID="336637459">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Soil\Lux Aeterna_FX_Footsteps2_Normal.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lux Aeterna_FX_Footsteps2_Normal" ID="{416CD818-DF62-4B3C-89EA-8C7B407CF0A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{AAEA225C-8F64-4BE7-AC8F-9EA1FA12EB3A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Soil" ID="{B990EA8C-F6E9-47CA-97E5-7767D70DE275}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{AE56681A-DD80-4D40-BDFE-043C049C4199}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{AAEA225C-8F64-4BE7-AC8F-9EA1FA12EB3A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Soil" ID="{139C383B-4DF5-4C9F-B135-1840DB8DFD75}"/>
+								<ItemList>
+									<ItemRef Name="Soil" ID="{B990EA8C-F6E9-47CA-97E5-7767D70DE275}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
