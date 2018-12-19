@@ -76,5 +76,5 @@ LuxAeternaGame/Plugins/*/Intermediate/*
 # Cache files for the editor to use
 LuxAeternaGame/DerivedDataCache/*
 
-!LuxAeternaGame/Plugins/*
-!LuxAeternaGame/LuxAeternaGame_WwiseProject/*
+LuxAeternaGame/Plugins/*
+LuxAeternaGame/LuxAeternaGame_WwiseProject/*
