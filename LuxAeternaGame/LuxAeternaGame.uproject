@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.21",
+	"EngineAssociation": "4.23",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -24,6 +24,11 @@
 			"Name": "TargetSystem",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/6bd21ce58d6e4cb295f71bd370233f53"
+		},
+		{
+			"Name": "DonAINavigation",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/81b4bd085c8c41508edfeb160b6ddf62"
 		}
 	]
 }
