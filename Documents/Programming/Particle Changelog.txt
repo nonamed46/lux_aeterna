@@ -1,0 +1,8 @@
+Changes:
+
+P_TrailLight01  : Lifetime: Distributuion Constant 0,7  ->  0,4
+		: Color over Life Alpha Distribution Constant Curve Points 0 Out Val  1  -> 0.4
+
+P_TrailLight02  : (Lifetime: Distributuion Constant 1 , 1  ->  0,4  , 0,6)
+		: Size Start Size: Distribution Max 5,5,5  ->  3,3,3
+		: Color over Life Alpha Distribution Constant Curve Points 0 Out Val  1  -> 0.5
